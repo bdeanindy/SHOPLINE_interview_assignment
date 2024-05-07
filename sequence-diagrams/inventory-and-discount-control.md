@@ -4,6 +4,29 @@
 
 ### Inventory Management
 
+#### Product Management
+```mermaid
+sequenceDiagram
+    participant M as Merchant
+    participant A as Application
+    participant API as SHOPLINE API
+    participant DB as Database
+
+    Note over M, A: Inventory Management Process
+    M->>A: Create New Product
+    A->>API: POST /admin/openapi/v20240601/products/products.json
+    API->>A: {"product": {"product_id": "123"}}
+    M->>A: Update Existing Product
+    A->>API: PUT /admin/openapi/v20240601/products/:product_id.json
+    API->>A: {"product": {"product_id": "456"}}
+    M->>A: Request Product List
+    A->>API: GET /admin/openapi/v20240601/products/products.json
+    API->>A: {"products": [{"product_id": "456"},{"product_id": "789"}]}
+    M->>A: Request Product Collection Quantities
+    A->>API: GET /admin/openapi/v20240601/products/count.json?collection_id=1234
+    API-->>A: {"body": {"count": 55}}
+```
+
 #### Product Category Management
 	##### SKUs (optional)
 	* POST - Create SKU: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/zYmEnSCX?version=v20240601
@@ -36,10 +59,10 @@
 
 	##### Inventory
 	* POST - Set inventory status: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/SSpgCuDk?version=v20240601
-	* PUT - Update 
-	* GET - List
-	* GET - 
-	* DELETE - Delete
+	* PUT - Update single stock object: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/vQtxgfbm?version=v20240601
+	* GET - Batch Query Inventory object: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/GnjCMmxU?version=v20240601
+	* GET - Inventory object: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/GRztkC2L?version=v20240601
+	* DELETE - Disconnect stock status: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/sPa02Hzo?version=v20240601
 
 	* Create Product-Category Relationship: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/Tvz7cBoA?version=v20240601
 		Req. Params: collection_id + product_id
