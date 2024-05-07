@@ -12,7 +12,7 @@ This repository contains the assignment given by SHOPLINE to Benjamin Dean a fin
 
 2. [Inventory and Discount Control](/sequence-diagrams/inventory-and-discount-control.md): The client must be able to manage inventory levels and offer discounts dynamically, based on the sales performance metrics of each influencer.
 
-3. [Social Feed integration and Customization](/sequence-diagrams/social-feed-and-customization.md): Influencers should have the tools to integrate their social media feeds into their websites and customize front-end elements to suit their branding needs.
+3. [Social Feed integration and Customization](/sequence-diagrams/social-feed-integration-and-customization.md): Influencers should have the tools to integrate their social media feeds into their websites and customize front-end elements to suit their branding needs.
 
 4. [Multi-Level Commission Calculation](/sequence-diagrams/multi-level-commission-calculation.md): The platform needs to calculate commissions for influencers, and their downstream sales lines (supporting the MLM business model). 
 
