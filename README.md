@@ -2,7 +2,7 @@
 This repository contains the assignment given by SHOPLINE to Benjamin Dean a final step of the interview process for the Open Platform Expert &amp; Head of Developer Experience role.
 
 ## Original Assignment Instructions from SHOPLINE
-![Orignal SHOPLINE Assignment Instructions]](/images/interview_test_instructions.jpeg)
+![Orignal SHOPLINE Assignment Instructions](/images/interview_test_instructions.jpeg)
 
 
 ## Contextual Overview 
