@@ -43,6 +43,7 @@ graph TD;
     style C fill:#ccf,stroke:#333,stroke-width:2px
     style D fill:#ccf,stroke:#333,stroke-width:2px
     style E fill:#ccf,stroke:#333,stroke-width:2px
+```
 
 # Assignment Success Requirements
 
