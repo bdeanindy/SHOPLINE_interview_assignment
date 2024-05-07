@@ -24,7 +24,7 @@ This repository contains the assignment given by SHOPLINE to Benjamin Dean a fin
 ## Topic One (1)
 
 ###  Create needed sequence diagrams:
-* Design different sequence diagrams that map out the interactions between the client's [MLM] system, [brand] influencers, and the Shopline's REST API and/or webhooks needed to satisfy the functionalities of this assignment's [Contextual Overview](#Contextual Overview).
+* Design different sequence diagrams that map out the interactions between the client's [MLM] system, [brand] influencers, and the Shopline's REST API and/or webhooks needed to satisfy the functionalities of this assignment's [Contextual Overview](#contextual-overview).
 * The diagrams should clearly illustrate all relevant API calls, data flows, and system responses
 
 ### Prototvoe Missing APlEndooints:
