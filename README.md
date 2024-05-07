@@ -49,19 +49,21 @@ graph TD;
 ## Topic One (1)
 
 ###  Create needed sequence diagrams
+
 * Design different sequence diagrams that map out the interactions between the client's [MLM] system, [brand] influencers, and the Shopline's REST API and/or webhooks needed to satisfy the functionalities of this assignment's [Contextual Overview](#contextual-overview).
 * The diagrams should clearly illustrate all relevant API calls, data flows, and system responses
+
 
 ### Prototype Missing API Endpoints
 Suppose, during develoment, you identify an essential APl endpoint is missing from SHOPLINE's Developer Portal.
 
-* Explain how you would go about prototyping this endooint, iincluding:
-	** Defining endpoint requirements (functionality, method, etc.)
-	** Designing the AP interface (URI design, request/response structures)
-	** Documenting the endpoint for use by the development team
+* Explain how you would go about prototyping this endpoint, including:
+	* Defining endpoint requirements (functionality, method, etc.)
+	* Designing the AP interface (URI design, request/response structures)
+	* Documenting the endpoint for use by the development team
 
 ## Topic Two (2)
 
 ### Comparison: Shopify's API-enabled e-commerce capabilities
 * What do you think are the areas where SHOPLINE open e-commerce capabilities lack?
-	** Provide 2-3 specific examples
+	* Provide 2-3 specific examples
