@@ -16,7 +16,7 @@ This repository contains the assignment given by SHOPLINE to Benjamin Dean a fin
 
 4. Multi-Level Commission Calculation: The platform needs to calculate commissions for influencers, and their downstream sales lines (supporting the MLM business model). 
 
-![Functional Overview](/image/assignment_functional_overview.png)
+![Functional Overview](/images/assignment_functional_overview.png)
 
 # Assignment Success Requirements
 
