@@ -16,7 +16,31 @@ This repository contains the assignment given by SHOPLINE to Benjamin Dean a fin
 
 4. Multi-Level Commission Calculation: The platform needs to calculate commissions for influencers, and their downstream sales lines (supporting the MLM business model). 
 
-![Assignment's Functional Summary](/images/assignment_functional_overview.png)
+### Functional Overview
+graph TD;
+    A[Client's MLM Platform] --> B[Self-Sign-Up for Influencers]
+    A --> C[Inventory and Discount Control]
+    A --> D[Social Feed Integration and Customization]
+    A --> E[Multi-Level Commission Calculation]
+
+    B --> B1[Onboard Influencers]
+    B --> B2[Set Up Personalized Websites]
+    B2 --> B21[Product Categories]
+    
+    C --> C1[Manage Inventory Levels]
+    C --> C2[Dynamic Discounts Based on Performance]
+
+    D --> D1[Integrate Social Media Feeds]
+    D --> D2[Customize Front-End Elements]
+
+    E --> E1[Calculate Commissions for Influencers]
+    E --> E2[Support Downstream Sales Lines]
+
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style B fill:#ccf,stroke:#333,stroke-width:2px
+    style C fill:#ccf,stroke:#333,stroke-width:2px
+    style D fill:#ccf,stroke:#333,stroke-width:2px
+    style E fill:#ccf,stroke:#333,stroke-width:2px
 
 
 # Assignment Success Requirements
