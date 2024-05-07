@@ -3,11 +3,11 @@
 **Self-Sign-Up tor influencers:** Enable influencers to onboard themselves and automatically set up personalized websites where the can sell products across up to ten (10) distinct categories of branded product lines.
 
 ## Developer Center App
-* App Scope:
+* App Scope: Public
 	* Merchant > Show
 	* Storefront Oauth Applications > Show, Create, Delete
 * Submit for approval
-* Webhook: Register for Application > Install, Application > Uninstall , Access Token > Create and Access Token > Revoke webhooks.
+* Webhook: Register for Application > Install, Application > Uninstall , Access Token > Create and Access Token > Revoke webhooks, > Sales Channel > Order Paid Successfully.
 
 ## On-board Influencers (Register Influencer)
 
@@ -51,30 +51,11 @@ sequenceDiagram
 
 
 
-### Required APIs
-* Client (MLM Platform Provider)
-	Influencer Management
-		* App Install/Uninstall
-	Influencer Signup
-		* App Install/Uninstall
-	Influencer Config (post-signup)
-
-
-		* PUT - Add collection to sales channels: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/L7HL6W0r?version=v20240601
-		* GET - Query collection of sales channels: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/iYas0CnR?version=v20240601
-		* DELETE - Remove collection from sales channels: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/gl3SBo4h?version=v20240601
-* Influencer (Affiliate, promoter of products)
-	WEBSITE (TODO)
-	* GET - Query products of sales channels
-	* GET - Query sales channels specify collection Product Id: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/QYddvv3s?version=v20240601
-* Customer (Purchaser of Products)
-	*
-
-## Setup Personalized Websites (
+### Create Website for Influencer
 
 1. Create storefront oauth app when influencer installs app: POST https://open.shopline.io/v1/storefront/oauth_applications
 
-### Select Product Categories
+### Select Product Categories to add to storefront
 
 1. Get list of categories to display to influencer
 2. When influencer selects a product category, get the collection_id, and store in db

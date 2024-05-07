@@ -31,6 +31,15 @@ Use Case: As a client's developer trying to understand how SHOPLINE `Product` ob
 
 ## Documentation MUST speak to the LEAST SKILLED developers
 
-SHOPLINE API documentation assumes developers already have a deep technical understanding of how SHOPLINE e-commerce operates, despite having a very complex data model. EXAMPLE(s):
+SHOPLINE API documentation makes assumptions about developers, and seems to expect developers already have a deep technical understanding of how SHOPLINE e-commerce operates, despite having a very complex data model.
 
-1. Search for `Product Category` and the result
+**EXAMPLE(s):**
+1. Products have Categories, not Collections (collections are a technical term for a list of similar objects)
+2. Full list of Webhook Events is not included in the documentation anywhere, and there is no way to know what the webhook schema for an event type will be or how it can be used unless the developer actually spends time to build the webhook
+
+### Projected Outcome/Result
+* Low developer adoptions
+* Orphaned developer accounts
+* Low CSAT for customers with inexperienced developers building private apps using SHOPLINE for the first time
+* Increased developer support cases
+* Negative impact to NPS by technical users (and possibly business users)

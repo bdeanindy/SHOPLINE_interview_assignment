@@ -2,12 +2,10 @@
 
 ## APIs Needed:
 
-* Client
-
 ### Inventory Management
 
 #### Product Category Management
-	##### SKUs
+	##### SKUs (optional)
 	* POST - Create SKU: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/zYmEnSCX?version=v20240601
 	* PUT - Update SKU by ID: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/0oMgmhd1?version=v20240601
 	* GET - List SKUs of single product: https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/gH8FLtIV?version=v20240601
@@ -61,9 +59,4 @@
 	* GET - Discount Code:  https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/IjYM4W3l?version=v20240601
 	* DELETE - Delete Discount Code:  https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/pqlkNkS9?version=v20240601
 
-* Influencer
-
-### Website
 	* GET - Query Product Information in a Specific Collection (Category): https://developer.shopline.com/docsv2/ec20/cdb180dc069f7d8d6877c0cdffe96f73/6nf1FLgi?version=v20240601
-
-* Customer
